@@ -11,4 +11,4 @@ match priority:
     case "low":
         if time == "yes":
             print("Note: '", task, "' is a low prioirity task that requires immediate attention today!")
-            print("'", task, "'", "is a low prioirity task. Consider completing it when you have time.")
+            print("Note: '", task, "' is a low prioirity task. Consider completing it when you have time.")
