@@ -9,28 +9,28 @@ class Book:
 
 class Library:
     def __init__(self):
-        self.__books = []
+        self._books = []
 
     def availability(self):
         return self.book.checked_out()
 
     def add_book(self, title):
-        self.__books.append(title)
+        self._books.append(title)
 
     def check_out_book(self, title):
-        for book in self.__books:
-            if title == self.__books and not library.availability:
+        for book in self._books:
+            if title == self._books and not library.availability:
                 self.is_checked_out = True
 
     def return_book(self):
-        for book in self.__books:
-            if title == self.__books and library.availability:
+        for book in self._books:
+            if title == self._books and library.availability:
                 self.is_checked_out = False
 
     def list_available_books(self):
-        for book in self.__books:
+        for book in self._books:
             if book.checked_out():
-                print(self.__books)
+                print(self._books)
 
 library = Library()
 Book("Brave New World", "Aldous Huxley")
