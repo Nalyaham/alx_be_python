@@ -22,7 +22,7 @@ class Library:
             if title == self.__books and not library.availability:
                 self.is_checked_out = True
 
-    def return_book(self, title):
+    def return_book(self):
         for book in self.__books:
             if title == self.__books and library.availability:
                 self.is_checked_out = False
