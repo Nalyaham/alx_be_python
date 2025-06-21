@@ -18,4 +18,4 @@ class Circle(Shape):
         self.radius = int(radius)
 
     def area(self):
-        return self.radius * self.radius * self.constant 
+        return self.radius ** 2 * self.constant 
